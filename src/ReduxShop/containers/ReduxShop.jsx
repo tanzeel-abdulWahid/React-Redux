@@ -6,6 +6,7 @@ import ProductDetails from './ProductDetails'
 import ProductListing from './ProductListing'
 
 const ReduxShop = () => {
+    // checking redux thunk
     return (
         <div>
             <Router>
