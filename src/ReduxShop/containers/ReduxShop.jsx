@@ -12,7 +12,7 @@ const ReduxShop = () => {
                 <Header />
                 <Switch>
                     <Route path="/" exact component={ProductListing}/>
-                    <Route path="/product/:productId" exact component={ProductDetails}/>
+                    <Route path="/product/:productId" component={ProductDetails}/>
                     <Route>404 Not found</Route>
                 </Switch>
             </Router>
